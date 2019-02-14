@@ -9,38 +9,42 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Shop Item - Start Bootstrap Template</title>
+  <title>SchoolRoom</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="{ %static login.css %}">
+  <link rel="stylesheet" href="https://trello-attachments.s3.amazonaws.com/5c6400a633dc548d36f17e4f/5c65d741a20c724350ed5ef2/5f3ea792db83bb93666f08d7c556fc9a/login.css">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #F7EB37;">
     <div class="container">
+    <a class="navbar-brand" href="/main">SchoolRoom</a>
       <img src="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><img src="https://trello-attachments.s3.amazonaws.com/5c65db272c5b5388ffd98044/163x163/3d27b76db47696afd4d379c4436d517d/%EC%84%9D%EC%82%BC%EC%9E%90-02.png" width="30px" alt=""></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">내정보</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">예약관리
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">이벤트</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">앱설정</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/">로그아웃</a>
           </li>
         </ul>
       </div>
@@ -48,7 +52,7 @@
   </nav>
   <div class="paymentTitle">
     <h1>결제</h1>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color: #eae592">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="" style="background-color: #eae592">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="selectCard shadow-lg p-3 mb-5 bg-white rounded">
@@ -73,8 +77,10 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
   </div>
-    <h3 style="margin-top: 70px">50,000원</h3>
-    <h5 class="confirmBtn"><a href="#">결제하기</a></h5>
+  <h3 style="margin-top: 30px">{{name}}</h3>
+  <h3 style="margin-top: 30px">{{time}}</h3>
+    <h3 style="margin-top: 30px">{{price}}원</h3>
+    <h5 class="confirmBtn"><a href="/payment_done">결제하기</a></h5>
   </div>
   
   <!-- Bootstrap core JavaScript -->
