@@ -1,0 +1,64 @@
+.loginTitle{
+	margin-top: 100px;
+	text-align: center
+}
+
+.loginInput{
+	width: 300px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.loginSubmit{
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 70px;
+	background-color: white;
+}
+
+.paymentTitle{
+	margin-top: 90px;
+	text-align: center;
+}
+
+.selectCard{
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 150px;
+	width: 75%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.selectCardFont{
+	margin-top: 20%;
+}
+
+a{
+	color: black;
+}
+
+.confirmBtn{
+	display: inline-block;
+	vertical-align: center;
+	margin-top: 70px;
+	border: 2px black solid;
+	border-radius: 10px;
+	height: 60px;
+	width: 70%;
+	padding-top: 18px;
+}
+
+.useDate{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+	width: 80%;
+	margin: auto;
+}
